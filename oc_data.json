@@ -1,0 +1,124 @@
+{
+    "1531260882137382986": {
+        "profile": {
+            "name": "CipherLock",
+            "pronouns": "",
+            "about": "hello, this is my bio ^^",
+            "status": "",
+            "links": "",
+            "image": "https://64.media.tumblr.com/262fa64ec66774ea34386e92021b71ae/adf590657d178e45-cc/s1280x1920/db2aabd874136ce66d7735486fa0f894efbc9b16.pnj",
+            "banner": "https://64.media.tumblr.com/420572abf082adf1ef3306d991f45a05/e3cc42267c2acb9e-8f/s1280x1920/ec9db6d9944c7cd44251242038ea683dce703f6f.jpg",
+            "color": "#5865F2",
+            "oc_logs_channel_id": null
+        },
+        "world": {
+            "name": "something of a world",
+            "genre": "fantasy",
+            "setting": "something something something",
+            "lore": "lore lore lore",
+            "rules": "rules/notes",
+            "notes": "",
+            "image": "",
+            "banner": "",
+            "color": "#2B8C85"
+        },
+        "ocs": {
+            "ethan winslow": {
+                "name": "Ethan Winslow",
+                "age": "old",
+                "pronouns": "He/Him",
+                "personality": "dededed",
+                "appearance": "",
+                "lore": "idk yet",
+                "likes": "",
+                "dislikes": "",
+                "abilities": "",
+                "relationships": "",
+                "notes": "",
+                "image": "https://64.media.tumblr.com/7ba3e6906ef8d4c319a6868ba97a8c7d/2f82f7a93161e867-63/s1280x1920/02c58023cbfb417bd7c5b3c9a950e07e1bafa053.pnj",
+                "banner": "",
+                "color": "#5865F2",
+                "proxy_tag": "E",
+                "proxy_emoji": "",
+                "nickname": "",
+                "bio": "dededed",
+                "custom_layout": {
+                    "enabled": true,
+                    "content": "canvas 1000 700\nbackground #20232b\n\nimage\nurl https://64.media.tumblr.com/d48f239b6eaa83142dfc541b88947e8b/f96d6bc2cce4960f-7b/s400x600/5e6a525efbc30d934454209725412e4f20af144e.pnj\nx 3\ny 154\nwidth 1019\nheight 609\nrotation 0\n\nimage\nurl {pfp}\nx 62\ny 91\nwidth 214\nheight 214\nrotation 0\n\ntext\ncontent {name}\nx 310\ny 125\nwidth 600\nheight 60\nsize 42\ncolor #FFFFFF\nalign left\n\ntext\ncontent Age: {age} • {pronouns}\nx 310\ny 185\nwidth 597\nheight 25\nsize 20\ncolor #aaaaaa\nalign left",
+                    "width": 1000,
+                    "height": 700
+                }
+            }
+        },
+        "proxies": {
+            "E:": "ethan winslow"
+        }
+    },
+    "1384960461208031444": {
+        "profile": {
+            "name": "",
+            "pronouns": "",
+            "about": "",
+            "status": "",
+            "links": "",
+            "image": "",
+            "banner": "",
+            "color": "#5865F2",
+            "oc_logs_channel_id": null
+        },
+        "world": {
+            "name": "Xephling Paradise",
+            "genre": "Fantasy",
+            "setting": "A Paradise like region, with scattered towns and villages. Caverns and gardens. Some creatures go here to escape extinction",
+            "lore": "A Peaceful paradise full of creatures of many. Protected by the Cursed Elemantal Hydra, after facing varies trails and terrains.",
+            "rules": "TBC.",
+            "notes": "",
+            "image": "https://cdn.discordapp.com/attachments/1535667943290175699/1535713397616812083/IMG_9007.jpg?ex=6a78c40e&is=6a77728e&hm=b56f75ddd20d58d0040fd11dc9cc51232622ff18a186a31eec6ad2d90840187e&",
+            "banner": "https://cdn.discordapp.com/attachments/1535667943290175699/1535713397264359434/IMG_9006.jpg?ex=6a78c40e&is=6a77728e&hm=05cf0b303d8f24ef4c9a2596ede8e9b8c80747b6529015fe8895e94200a8e24d&",
+            "color": "#87CEFA"
+        },
+        "ocs": {
+            "sadfas": {
+                "name": "sadfas",
+                "age": "asdfadf",
+                "pronouns": "asdfa",
+                "personality": "sdfadfs",
+                "appearance": "",
+                "lore": "asdfsdafadfawefwef",
+                "likes": "",
+                "dislikes": "",
+                "abilities": "",
+                "relationships": "",
+                "notes": "",
+                "image": "",
+                "banner": "",
+                "color": "#5865F2",
+                "proxy_tag": "S",
+                "proxy_emoji": "",
+                "custom_layout": {
+                    "enabled": true,
+                    "content": "canvas 1000 700\nbackground #20232B\n\nimage\nurl {banner}\nx 0\ny 0\nwidth 1000\nheight 220\n\nimage\nurl {pfp}\nx 50\ny 120\nwidth 220\nheight 220\n\ntext\ncontent {name}\nx 310\ny 130\nsize 42\ncolor #FFFFFF\nwidth 600\n\ntext\ncontent Age: {age}\nx 310\ny 190\nsize 20\ncolor #AAAAAA\nwidth 600\n\ntext\ncontent {pronouns}\nx 310\ny 220\nsize 20\ncolor #AAAAAA\nwidth 600\n\nquote\ncontent {message}\nx 60\ny 400\nsize 24\ncolor #FFFFFF\nwidth 850",
+                    "width": 1000,
+                    "height": 700
+                }
+            },
+            "thunder": {
+                "name": "Thunder",
+                "age": "17 weeks",
+                "pronouns": "He/him",
+                "personality": "Excited/Hyper little Pup",
+                "appearance": "",
+                "lore": "Stays with the Raiden Shogun in inazuma \nWhile waiting for his other owner to return. He bites fatui members or anyone who attacks his home.",
+                "likes": "",
+                "dislikes": "",
+                "abilities": "",
+                "relationships": "",
+                "notes": "",
+                "image": "",
+                "banner": "",
+                "color": "#5865F2"
+            }
+        },
+        "proxies": {}
+    }
+}
