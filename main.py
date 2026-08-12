@@ -246,7 +246,7 @@ def build_book_embed(member):
             world_summary.append(f"**Setting:** {world['setting']}")
 
         embed.add_field(
-            name="[WORLD] World",
+            name="World",
             value="\n".join(world_summary),
             inline=False,
         )
@@ -300,7 +300,7 @@ def build_world_embed(member):
     world = get_book(member.id)["world"]
 
     embed = make_embed(
-        f"[WORLD] {member.display_name}'s Innerworld",
+        f"{member.display_name}'s Innerworld",
         world["name"] or "No world name has been set.",
         embed_color(world.get("color"), discord.Color.dark_teal()),
     )
@@ -383,7 +383,7 @@ def build_oc_embed(owner, oc):
 
     if oc["appearance"]:
         embed.add_field(
-            name="[PROFILE] Appearance",
+            name="Appearance",
             value=clip(oc["appearance"]),
             inline=False,
         )
@@ -987,7 +987,7 @@ class WorldAppearanceModal(discord.ui.Modal, title=" Innerworld Appearance"):
         await save_data()
 
         await interaction.response.send_message(
-            "[WORLD] Your innerworld appearance has been updated!",
+            "Your innerworld appearance has been updated!",
             ephemeral=True,
         )
 
@@ -1268,7 +1268,7 @@ COMMAND_CATEGORIES = {
         "ocgift": ("Alias for ocgive.", f"{PREFIX}ocgift @user Nova"),
         "octransfer": ("Alias for ocgive.", f"{PREFIX}octransfer @user Nova"),
     },
-    "[JSON] OC JSON IMPORT / EXPORT": {
+    "OC JSON IMPORT / EXPORT": {
         "ocexport": (
             "Export your entire OC list, or one specific OC, as a JSON file.",
             f"{PREFIX}ocexport [OC Name]",
@@ -1287,7 +1287,7 @@ COMMAND_CATEGORIES = {
         "proxylist": ("Show your active OC proxies.", f"{PREFIX}proxylist"),
         "proxyremove": ("Remove one of your OC proxy triggers.", f"{PREFIX}proxyremove N:"),
     },
-    "[WORLD] WORLD / LORE": {
+    "WORLD / LORE": {
         "ocworld": ("View or edit an innerworld.", f"{PREFIX}ocworld [@user]"),
     },
     " PERSONAL ROOMS": {
@@ -1338,7 +1338,7 @@ async def send_command_help(ctx, command_name=None):
         return
 
     embed = make_embed(
-        "[COMMANDS] ARCHIVERIST COMMANDS",
+        "ARCHIVERIST COMMANDS",
         f"Everything is organized into categories below.\n\nUse `{PREFIX}commands <command>` for detailed help on one command.",
         discord.Color.blurple(),
     )
@@ -1430,7 +1430,7 @@ async def setcolor(ctx, target_role: discord.Role, hex_code: str):
     if target_role >= me.top_role:
         await ctx.send(
             embed=make_embed(
-                "[DENIED] Role Hierarchy Error",
+                "Role Hierarchy Error",
                 "My highest role must be **above the target role**.",
                 discord.Color.red(),
             )
@@ -1468,7 +1468,7 @@ async def setcolor(ctx, target_role: discord.Role, hex_code: str):
     except discord.Forbidden:
         await ctx.send(
             embed=make_embed(
-                "[DENIED] Discord Permission Error",
+                "Discord Permission Error",
                 "Check my **Manage Roles** permission and role hierarchy.",
                 discord.Color.red(),
             )
@@ -1508,7 +1508,7 @@ async def ocinfo(ctx, user: discord.Member = None):
     profile = book["profile"]
 
     embed = make_embed(
-        f"[PROFILE] {profile['name'] or target.display_name}",
+        f"{profile['name'] or target.display_name}",
         profile["about"] or "No public information has been added.",
         discord.Color.blurple(),
     )
@@ -1822,7 +1822,7 @@ async def ocdeleteall(ctx):
 
             await interaction.response.edit_message(
                 embed=make_embed(
-                    "[CANCELLED] Nothing Deleted",
+                    "Nothing Deleted",
                     "Your OCs were not changed.",
                     discord.Color.green(),
                 ),
@@ -2174,7 +2174,7 @@ async def ocsetup(ctx):
     )
 
     embed.add_field(
-        name="[PROFILE] Profile",
+        name="Profile",
         value=(
             f"Use `{PREFIX}ocbook` and press **Edit Book** to change "
             "your public information."
@@ -2192,7 +2192,7 @@ async def ocsetup(ctx):
     )
 
     embed.add_field(
-        name="[WORLD] Innerworld",
+        name="Innerworld",
         value=(
             f"Use `{PREFIX}ocworld` and press **Edit World** "
             "to customize your setting."
@@ -2940,7 +2940,7 @@ async def on_command_error(ctx, error):
 
 
 # ============================================================
-# [JSON] OC JSON MODULE
+# OC JSON MODULE
 # ============================================================
 
 setup_oc_json_commands(
